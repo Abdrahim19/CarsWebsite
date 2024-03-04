@@ -8,6 +8,7 @@ import navLogo from "../../../public/images/siteLogo.png"
 import YoutubeCars from "./components/YoutubeCars/YoutubeCars";
 import GooglReviews from "./components/googlReviews/GooglReviews";
 import Blogs from "./components/Blogs/Blogs";
+import InstagramPostes from "./components/InstagramPostes/InstagramPostes";
 
 const App = () => {
   const [sectionData, setSectionData] = useState<Section | null>(null);
@@ -90,6 +91,7 @@ const App = () => {
     <Arrivals />
     <GooglReviews />
     <YoutubeCars />
+    <InstagramPostes />
     <Blogs />
     </Suspense>
   )

@@ -12,7 +12,8 @@ export const styles = {
     threeCoslGrid:'justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3',
     h_screen_center:'min-h-screen flex flex-col items-center justify-center py-4',
     BlackSection:'bg-black text-white',
-    CenterGrid:'grid place-items-center'
+    CenterGrid:'grid place-items-center',
+    center__y:'top-1/2 translate-y-[-50%]'
 
 }
 
