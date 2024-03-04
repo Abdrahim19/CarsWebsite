@@ -7,6 +7,7 @@ export async function fetchFirstSectionData(sectionId: number): Promise<Section 
         const response = await fetch(apiUrl);
 
         if (!response.ok) {
+            console.log(response.ok);
             throw new Error(`Failed to fetch data from ${apiUrl}`);
         }
 

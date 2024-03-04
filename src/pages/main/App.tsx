@@ -7,6 +7,7 @@ import { Section } from "./models";
 import navLogo from "../../../public/images/siteLogo.png"
 import YoutubeCars from "./components/YoutubeCars/YoutubeCars";
 import GooglReviews from "./components/googlReviews/GooglReviews";
+import Blogs from "./components/Blogs/Blogs";
 
 const App = () => {
   const [sectionData, setSectionData] = useState<Section | null>(null);
@@ -70,7 +71,7 @@ const App = () => {
   }
 
   return (
-    <Suspense key={sectionData.id} fallback={<h1>loding....</h1>}>
+    <Suspense  key={sectionData.id} fallback={<h1>loding....</h1>}>
     <section className={`min-h-screen relative transition-all bg-cover leading-normal text-white w-full
      bg-no-repeat `}>
         <img 
@@ -89,6 +90,7 @@ const App = () => {
     <Arrivals />
     <GooglReviews />
     <YoutubeCars />
+    <Blogs />
     </Suspense>
   )
 }
