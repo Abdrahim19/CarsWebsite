@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { styles } from "../../../../styles/style"
 import googlLogo from "../../../../../public/images/googolLogo.png";
 import { FaStar } from "react-icons/fa";
+import goodMan from "../../../../../public/images/GoodMan.png";
 // import { useState, useEffect } from "react";
 
 const GooglReviews = () => {
@@ -28,6 +29,7 @@ const GooglReviews = () => {
   //   fetchData();
   // }, []);
 
+
   return (
     <section className={`${styles.h_screen_center} font-inter`}>
         <div className="text-center">
@@ -44,11 +46,11 @@ const GooglReviews = () => {
             View All Reviews
             </Link>
         </div>
-        <div className="mt-10 flex items-center gap-4 overflow-hidden">
-          <div className=" h-[403px] rounded-[10px] border-[1.5px]
+        <div className="mt-10 px-4  flex items-center gap-4 overflow-hidden">
+        <div className=" h-[403px] rounded-[10px] border-[1.5px]
            border-solid border-[#ff0000] bg-white p-4">
             <div className={`${styles.flexitems}  gap-5`}>
-              <img src="" className="rounded-full h-[100px]" alt="" />
+              <img src={goodMan} className="rounded-full h-[80px] self-start" alt="" />
               <div>
                 <p className="font-medium text-xl leading-6 mb-4">
                   Sami B</p>
@@ -69,7 +71,7 @@ const GooglReviews = () => {
           <div className=" h-[403px] rounded-[10px] border-[1.5px]
            border-solid border-[#ff0000] bg-white p-4">
             <div className={`${styles.flexitems}  gap-5`}>
-              <img src="" className="rounded-full h-[100px]" alt="" />
+              <img src={goodMan} className="rounded-full h-[80px] self-start" alt="" />
               <div>
                 <p className="font-medium text-xl leading-6 mb-4">
                   Sami B</p>
@@ -90,7 +92,7 @@ const GooglReviews = () => {
           <div className=" h-[403px] rounded-[10px] border-[1.5px]
            border-solid border-[#ff0000] bg-white p-4">
             <div className={`${styles.flexitems}  gap-5`}>
-              <img src="" className="rounded-full h-[100px]" alt="" />
+              <img src={goodMan} className="rounded-full h-[80px] self-start" alt="" />
               <div>
                 <p className="font-medium text-xl leading-6 mb-4">
                   Sami B</p>

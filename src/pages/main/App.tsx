@@ -72,11 +72,11 @@ const App = () => {
 
   return (
     <Suspense  key={sectionData.id} fallback={<h1>loding....</h1>}>
-    <section className={`min-h-screen relative transition-all bg-cover leading-normal text-white w-full
+    <section className={`min-h-screen relative bg-cover leading-normal text-white w-full
      bg-no-repeat `}>
         <img 
         src={totalSlides[currentSlide]}
-         className="absolute top-0 left-0 transition-opacity duration-500  z-[-1] w-full h-full
+         className="absolute top-0 left-0 transition-all ease-in-out duration-1000 transform translate-x-0 z-[-1] w-full h-full
           object-cover" alt="" />
     <Navbar 
     logo={navLogo} />
