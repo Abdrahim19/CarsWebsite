@@ -29,7 +29,10 @@ export default {
         inter: ['Inter', 'sans-serif'],
         Italiana:[ "Italiana", 'sans-serif'],
         Inria :["Inria Serif", "serif"],
-        FellGreat:["IM Fell Great Primer" , "serif"]
+        FellGreat:["IM Fell Great Primer" , "serif"],
+        Inika:["Inika", "serif"],
+        Imprima:['Imprima' , "sans-serif" ],
+        inkFree: ['Ink Free', 'sans-serif'],
       },
       backgroundImage: {
         'hero-pattern': "url('./public/heroImge.png')",
@@ -47,7 +50,7 @@ export default {
       screens: {
         mobile: "600px",
         tablet: "900px",
-        desktop: "800px",
+        desktop: "1000px",
       },
     },
   },

@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './styles/globals.css'
 import App from './pages/main/App';
+import "./font/Inkfree.ttf";
 
 
 const router = createBrowserRouter([

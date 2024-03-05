@@ -8,11 +8,11 @@ import { TbAutomaticGearbox } from "react-icons/tb";
 const Arrivals = () => {
   return (
     <section className={`font-inter ${styles.h_screen_center} ${styles.BlackSection}`}>
-        <h1 className="text-3xl font-Italiana md:text-4xl lg:text-5xl xl:text-6xl 
+        <h1 className="text-3xl mt-[50px] font-Italiana md:text-4xl lg:text-5xl xl:text-6xl 
         leading-[clamp(30px ,4vw , 71px)]">New Arrivals</h1>
         <div className={`${styles.threeCoslGrid} container my-[50px] my-[clamp(25px ,4vw ,50px)] gap-2`}>
             <div>
-                <img src={carImage} className="w-full h-[406px] object-cover" alt="" />
+                <img src={carImage} className="w-full h-[250px] object-cover" alt="" />
                 <div className="p-4 bg-white text-black">
                     <h3 className="font-bold text-lg leading-[22px] mb-3">
                     Mercedes Amg get 2024
@@ -46,7 +46,7 @@ const Arrivals = () => {
                 </div>
             </div>
             <div>
-                <img src={carImage} className="w-full h-[406px] object-cover" alt="" />
+                <img src={carImage} className="w-full h-[250px] object-cover" alt="" />
                 <div className="p-4 bg-white text-black">
                     <h3 className="font-bold text-lg leading-[22px] mb-3">
                     Mercedes Amg get 2024
@@ -80,7 +80,7 @@ const Arrivals = () => {
                 </div>
             </div>
             <div>
-                <img src={carImage} className="w-full h-[406px] object-cover" alt="" />
+                <img src={carImage} className="w-full h-[250px] object-cover" alt="" />
                 <div className="p-4 bg-white text-black">
                     <h3 className="font-bold text-lg leading-[22px] mb-3">
                     Mercedes Amg get 2024

@@ -9,7 +9,7 @@ const BenfitesBox: React.FC<ExclusiveDiscoveryProps> = ({ title, description }) 
   return (
     <div className="text-center md:text-start">
       <h2 className="font-medium 
-       lg:leading-[40px] xl:leading-[50px]" style={{fontSize:'clamp(15px ,4vw , 35px)'}}>
+       lg:leading-[40px] xl:leading-[50px]" style={{fontSize:'clamp(15px ,4vw , 30px)'}}>
         {title}
       </h2>
       <p className="mt-4 font-Inria mb-[25px] text-lg md:text-xl leading-[88px]">

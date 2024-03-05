@@ -19,7 +19,7 @@ const Benfites = () => {
     
   return (
     <section className="min-h-screen font-Italiana grid place-items-center py-8 bg-[#D9D9D98F]">
-        <div key={sectionData?.id} className="container">
+        <div key={sectionData?.id} className="container px-24">
         <h1 className="font-normal text-center md:text-start text-xl lg:text-2xl xl:text-5xl 
         leading-[clamp(30px , 4vw,70px )] mb-[40px]">
         {sectionData?.main_title || "Welcome to Barugazi Motors"}</h1>

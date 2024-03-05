@@ -1,7 +1,8 @@
 import { BenfitesType, Section } from "../pages/main/models";
 
+const BaseUrl = "http://192.168.100.3:8000";
 export async function fetchFirstSectionData(sectionId: number): Promise<Section | null> {
-    const apiUrl = `http://192.168.100.3:8000/api/first-sections/${sectionId}`;
+    const apiUrl = `${BaseUrl}/api/first-sections/${sectionId}`;
 
     try {
         const response = await fetch(apiUrl);
@@ -20,7 +21,7 @@ export async function fetchFirstSectionData(sectionId: number): Promise<Section 
 }
 
 export async function fetchSecondSectionData(): Promise<BenfitesType | null> {
-    const apiUrl = `http://192.168.100.3:8000/api/second-sections/1`;
+    const apiUrl = `${BaseUrl}/api/second-sections/1`;
 
     try {
         const response = await fetch(apiUrl);
